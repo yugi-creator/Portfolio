@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" href="assets/icons/Favicon.png">
+    <title>Yugendiran R - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-night-blue">
+        <div class="container">
+            <a class="navbar-brand" href="#"><strong>Yugendiran R</strong></a>
+            <button class="navbar-toggler" type="button" id="menuToggle" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work-experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay Menu -->
+    <div class="overlay" id="overlayMenu">
+        <div class="overlay-content">
+            <!-- <button class="closebtn" id="closeMenu">&times;</button> -->
+            <ul class="overlay-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#work-experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row">
+                <!-- Image on the Right for Larger Screens, Above Content for Small Screens -->
+                <div class="col-md-6 order-1 order-md-2 d-flex align-items-center justify-content-center">
+                    <img src="images/Home World.png" alt="Intro Image" class="home-image img-fluid">
+                </div>
+
+                <!-- Text Content on the Left for Larger Screens, Below Image for Small Screens -->
+                <div class="col-md-6 order-2 order-md-1 d-flex align-items-center">
+                    <div class="home-content">
+                        <h2>Hi, I'm <span class="name-highlight">Yugendiran R</span></h2>
+                        <h3>
+                            <span id="typed"></span> <!-- Typing effect target -->
+                        </h3>
+                        <p>
+                            Welcome to my portfolio! I specialize in building modern web applications and automating development operations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Experience Section -->
+    <section id="work-experience" class="work-experience-section">
+        <div class="container">
+            <!-- Work Experience Title -->
+            <div class="section-title">
+                <h1>Work Experience</h1>
+            </div>
+
+            <!-- Transparent Night Blue Box -->
+            <div class="experience-box">
+                <!-- Company Logo, Job Title, and Location -->
+                <div class="work-experience-header d-flex align-items-center flex-wrap">
+                    <!-- Company Logo -->
+                    <img src="assets/icons/TCL.webp" alt="Tata Communications Limited Logo" class="company-logo">
+                    
+                    <!-- Job Title and Location -->
+                    <div class="work-experience-title">
+                        <h3>Automation Engineer Trainee</h3>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                </div>                
+
+                <!-- Detailed Work Experience Content -->
+                <!-- Work Experience Content -->
+                <div class="work-experience-content">
+                    <p>
+                        As an Automation Engineer Trainee at Tata Communications Limited in Chennai, Tamil Nadu, I have been actively engaged in developing and implementing automation solutions since April 2024. During my tenure, I have focused on enhancing operational efficiency through the creation of Python-based automation scripts and tools. Collaborating closely with senior engineers, we designed and implemented automation solutions that resulted in a significant improvement of 30% in efficiency. My expertise extends to utilizing Git and GitHub for version control, ensuring collaborative and organized code management. Additionally, I have gained hands-on experience in deploying and maintaining automation solutions on Linux environments, as well as assisting in the configuration and management of Ansible for automated deployments. Furthermore, I have provided technical support and troubleshooting for automated systems, honing my problem-solving skills in complex infrastructure scenarios.
+                    </p>
+                    
+                    <h3>My project work has encompassed several key areas:</h3>
+                    
+                    <h4>Automation and Data Parsing using Python:</h4>
+                    <p>
+                        I developed a Python script to automate the extraction of key information from text files using regular expressions. This involved implementing regex patterns to accurately parse and identify specific data formats such as dates, ticket numbers, IP addresses, and more. By utilizing Python's re module, I streamlined the process of handling and processing text data, improving the efficiency of data management tasks. I also designed and executed a script to read and process multiple lines of data, ensuring precise extraction and output of required fields.
+                    </p>
+                    
+                    <h4>Ansible-based Automation:</h4>
+                    <p>
+                        I created automation scripts using Ansible to streamline processes and resolve issues across various environments, including Linux, Windows, Database, and Cloud platforms. This approach significantly reduced manual intervention and allowed me to efficiently resolve support tickets by analyzing and addressing infrastructure and configuration issues. I also managed infrastructure as code (IaC) using Ansible, facilitating the setup and configuration of services like LAMP stack installation and system reboot automation.
+                    </p>
+                    
+                    <h4>Web Application Development:</h4>
+                    <p>
+                        Building upon my automation skills, I developed and deployed a web application using the LAMP stack (Linux, Apache, MySQL, PHP) on a local machine. This project enhanced my full-stack development skills, including front-end (HTML, CSS, JavaScript) and back-end (PHP, MySQL) technologies. I set up and configured Apache web server, MySQL database, and PHP environment on a local Linux system, demonstrating my ability to design and build scalable web applications using PHP and MySQL. Additionally, I deployed and tested web applications locally for development and testing purposes.
+                    </p>
+                    
+                    <h4>Infrastructure Management and Optimization:</h4>
+                    <p>
+                        Throughout my role, I collaborated with cross-functional teams to improve CI/CD pipelines, ensuring efficient deployment of services and applications. I configured and optimized TCP/IP configurations to improve network performance and connectivity, as well as set up and managed DNS servers to ensure accurate domain name resolution and website accessibility. Troubleshooting and resolving network-related issues using TCP/IP and DNS troubleshooting techniques further expanded my skillset in infrastructure management.
+                    </p>
+                    
+                    <h4>Database Management:</h4>
+                    <p>
+                        I designed and implemented database schemas to optimize data storage and retrieval efficiency. Additionally, I managed and maintained relational databases to ensure data integrity and security, demonstrating my ability to work effectively with various database systems.
+                    </p>
+                    
+                    <p>
+                        Throughout these projects and responsibilities, I consistently delivered high-quality solutions in a timely manner, showcasing my commitment to excellence and continuous learning in the field of automation engineering.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="skills-heading">Skills</h2>
+            <div class="skills-grid">
+                <!-- AngularJS -->
+                <div class="skill-item">
+                    <img src="assets/icons/AngularJS.png" alt="AngularJS" class="skill-icon">
+                    <p>AngularJS</p>
+                </div>
+                <!-- Ansible -->
+                <div class="skill-item">
+                    <img src="assets/icons/Ansible.png" alt="Ansible" class="skill-icon">
+                    <p>Ansible</p>
+                </div>
+                <!-- AWS -->
+                <div class="skill-item">
+                    <img src="assets/icons/AWS.png" alt="AWS" class="skill-icon">
+                    <p>AWS</p>
+                </div>
+                <!-- AWX -->
+                <div class="skill-item">
+                    <img src="assets/icons/AWX.png" alt="AWX" class="skill-icon">
+                    <p>AWX</p>
+                </div>
+                <!-- Azure -->
+                <div class="skill-item">
+                    <img src="assets/icons/Azure.png" alt="Azure" class="skill-icon">
+                    <p>Azure</p>
+                </div>
+                <!-- CSS -->
+                <div class="skill-item">
+                    <img src="assets/icons/CSS.png" alt="CSS" class="skill-icon">
+                    <p>CSS</p>
+                </div>
+                <!-- Django -->
+                <div class="skill-item">
+                    <img src="assets/icons/Django.png" alt="Django" class="skill-icon">
+                    <p>Django</p>
+                </div>
+                <!-- Docker -->
+                <div class="skill-item">
+                    <img src="assets/icons/Docker.png" alt="Docker" class="skill-icon">
+                    <p>Docker</p>
+                </div>
+                <!-- Excel -->
+                <div class="skill-item">
+                    <img src="assets/icons/Excel.png" alt="Excel" class="skill-icon">
+                    <p>Excel</p>
+                </div>
+                <!-- Flask -->
+                <div class="skill-item">
+                    <img src="assets/icons/flask.png" alt="Fask" class="skill-icon">
+                    <p>Flask</p>
+                </div>
+                <!-- GitHub -->
+                <div class="skill-item">
+                    <img src="assets/icons/GitHub Black.png" alt="GitHub" class="skill-icon">
+                    <p>GitHub</p>
+                </div>
+                <!-- GitHub Actions -->
+                <div class="skill-item">
+                    <img src="assets/icons/GitHub Actions.png" alt="GitHub Actions" class="skill-icon">
+                    <p>GitHub Actions</p>
+                </div>
+                <!-- HTML -->
+                <div class="skill-item">
+                    <img src="assets/icons/HTML.png" alt="HTML" class="skill-icon">
+                    <p>HTML</p>
+                </div>
+                <!-- Java -->
+                <div class="skill-item">
+                    <img src="assets/icons/Java.png" alt="Java" class="skill-icon">
+                    <p>Java</p>
+                </div>
+                <!-- JavaScripts -->
+                <div class="skill-item">
+                    <img src="assets/icons/JavaScript.png" alt="JavaScripts" class="skill-icon">
+                    <p>JavaScripts</p>
+                </div>    
+                <!-- Jenkins -->
+                <div class="skill-item">
+                    <img src="assets/icons/Jenkins.png" alt="Jenkins" class="skill-icon">
+                    <p>Jenkins</p>
+                </div> 
+                <!-- Kubernetes -->
+                <div class="skill-item">
+                    <img src="assets/icons/Kubernetes.png" alt="Kubernetes" class="skill-icon">
+                    <p>Kubernetes</p>
+                </div> 
+                <!-- Linux -->
+                <div class="skill-item">
+                    <img src="assets/icons/Linux.png" alt="Linux" class="skill-icon">
+                    <p>Linux</p>
+                </div>    
+                <!-- MongoDB -->
+                <div class="skill-item">
+                    <img src="assets/icons/MongoDB.png" alt="MongoDB" class="skill-icon">
+                    <p>MongoDB</p>
+                </div>
+                <!-- MySQL -->
+                <div class="skill-item">
+                    <img src="assets/icons/MySQL.png" alt="MySQL" class="skill-icon">
+                    <p>MySQL</p>
+                </div> 
+                <!-- NodeJS -->
+                <div class="skill-item">
+                    <img src="assets/icons/NodeJS.png" alt="NodeJS" class="skill-icon">
+                    <p>NodeJS</p>
+                </div>  
+                <!-- PostgreSQL -->
+                <div class="skill-item">
+                    <img src="assets/icons/PostgreSQL.png" alt="PostgreSQL" class="skill-icon">
+                    <p>PostgreSQL</p>
+                </div>
+                <!-- Postman -->
+                <div class="skill-item">
+                    <img src="assets/icons/Postman.png" alt="Postman" class="skill-icon">
+                    <p>Postman</p>
+                </div> 
+                <!-- PowerPoint -->
+                <div class="skill-item">
+                    <img src="assets/icons/Powerpoint.png" alt="PowerPoint" class="skill-icon">
+                    <p>PowerPoint</p>
+                </div>
+                <!-- Python -->
+                <div class="skill-item">
+                    <img src="assets/icons/Python.png" alt="Python" class="skill-icon">
+                    <p>Python</p>
+                </div>
+                <!-- ReactJS -->
+                <div class="skill-item">
+                    <img src="assets/icons/ReactJS.png" alt="ReactJS" class="skill-icon">
+                    <p>ReactJS</p>
+                </div>
+                <!-- Spring Boot -->
+                <div class="skill-item">
+                    <img src="assets/icons/SpringBoot.png" alt="Spring Boot" class="skill-icon">
+                    <p>Spring Boot</p>
+                </div>
+                <!-- VSCode -->
+                <div class="skill-item">
+                    <img src="assets/icons/VSCode.png" alt="VSCode" class="skill-icon">
+                    <p>VSCode</p>
+                </div>
+                <!-- Windows -->
+                <div class="skill-item">
+                    <img src="assets/icons/Windows.png" alt="Windows" class="skill-icon">
+                    <p>Windows</p>
+                </div>
+                <!-- Word -->
+                <div class="skill-item">
+                    <img src="assets/icons/Word.png" alt="Word" class="skill-icon">
+                    <p>Word</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section"> 
+        <h2 class="projects-heading">Projects</h2>
+        <div class="project-content-box"> <!-- Add this div for the content box -->
+            <div class="project-gallery">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <a href="https://project1-link.com" target="_blank">
+                        <img src="assets/icons/Project 1.png" alt="Project 1 Thumbnail" class="project-thumbnail">
+                    </a>
+                    <p>Loading...</p>
+                </div>
+        
+                <!-- Project 2 -->
+                <div class="project-item">
+                    <a href="https://project2-link.com" target="_blank">
+                        <img src="assets/icons/Project 2.png" alt="Project 2 Thumbnail" class="project-thumbnail">
+                    </a>
+                    <p>Loading...</p>
+                </div>
+        
+                <!-- Project 3 -->
+                <div class="project-item">
+                    <a href="https://project3-link.com" target="_blank">
+                        <img src="assets/icons/Project 3.png" alt="Project 3 Thumbnail" class="project-thumbnail">
+                    </a>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </div> <!-- End of project content box -->
+    </section>
+           
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h2 class="about-heading">About</h2>
+                  <p>
+                    I completed my Higher Secondary Certificate <strong>(HSC)</strong> at <strong>Kingston Matriculation Higher Secondary School</strong> in 2018, achieving a score of <em>59.40%</em>. Prior to that, I earned my Secondary School Leaving Certificate <strong>(SSLC)</strong> from the same institution in 2016, with a commendable score of <em>86.20%</em>. In 2018, I began my journey in computer science by enrolling in <strong>Jerusalem College of Engineering in Chennai</strong>, where I pursued a <strong>Bachelor of Engineering (B.E.) in Computer Science and Engineering</strong>, graduating in 2022 with a score of <em>75.40%</em>. Currently, I am working as an <strong>Automation Engineer Trainee</strong> at <strong>Tata Communications Limited</strong>, where I am excited to apply my knowledge and skills in the field.
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section my-5">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">
+            I'm always excited to explore new opportunities. Feel free to reach out anytime - whether you have a question, need advice, or just want to connect. I'll do my best to respond promptly.
+        </p>
+        <div class="contact-btn-container">
+            <a href="mailto:yugendiran1014@gmail.com" class="btn contact-btn">Click Here</a>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Yugendiran R. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yugendiran16" target="_blank" class="social-icon">
+                        <img src="assets/icons/LinkedIN.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/yugi-creator" target="_blank" class="social-icon">
+                        <img src="assets/icons/GitHub White.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.facebook.com/mr.YUGi16" target="_blank" class="social-icon">
+                        <img src="assets/icons/Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/yug.eeee" target="_blank" class="social-icon">
+                        <img src="assets/icons/Instagram.png" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- Include Typed.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        // Initialize Typed.js for typing effect
+        var typed = new Typed('#typed', {
+            strings: ['Web Developer', 'DevOps Engineer', 'Automation Expert'],
+            typeSpeed: 50,  
+            backSpeed: 30,  
+            backDelay: 1500, 
+            startDelay: 500, 
+            loop: true
+        });
+    </script>
+</body>
+</html>
